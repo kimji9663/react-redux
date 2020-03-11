@@ -4,9 +4,8 @@ export default class DisplayNumber extends Component{
 	render(){
 		return(
 			<div>
-				<hi>Display Number</hi>
-				<input type="button" value="+"></input>
-				<input type="text" value="0"></input>
+				<h1>Display Number</h1>
+				<input type="text" value={this.props.number} readOnly></input>
 			</div>
 		)
 	}
